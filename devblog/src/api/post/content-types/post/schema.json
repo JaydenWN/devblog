@@ -20,17 +20,20 @@
     "content": {
       "type": "richtext"
     },
-    "project": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::project.project",
-      "inversedBy": "post"
+    "reactID": {
+      "type": "uid"
     },
     "technologies": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::technology.technology",
-      "mappedBy": "post"
+      "mappedBy": "posts"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "mappedBy": "posts"
     }
   }
 }

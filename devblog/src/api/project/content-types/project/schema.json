@@ -18,17 +18,17 @@
     "description": {
       "type": "text"
     },
-    "post": {
+    "posts": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToMany",
       "target": "api::post.post",
-      "mappedBy": "project"
+      "inversedBy": "projects"
     },
     "technologies": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::technology.technology",
-      "mappedBy": "project"
+      "mappedBy": "projects"
     }
   }
 }

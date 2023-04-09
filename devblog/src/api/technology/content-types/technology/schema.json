@@ -20,17 +20,20 @@
       "required": false,
       "unique": true
     },
-    "project": {
+    "posts": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "inversedBy": "technologies"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
       "target": "api::project.project",
       "inversedBy": "technologies"
     },
-    "post": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::post.post",
-      "inversedBy": "technologies"
+    "reactID": {
+      "type": "uid"
     }
   }
 }
