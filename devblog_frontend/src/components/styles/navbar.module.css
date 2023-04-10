@@ -1,0 +1,39 @@
+nav{
+    background-color: white;
+    border-bottom: 1px solid var(--white);
+    font-family: var(--font);
+    font-weight: 400;
+    container: navbarContainer / inline
+}
+.logo{
+    font-weight: 600;
+}
+nav a{
+    min-height: 30px;
+    text-decoration: none;
+    color: var(--black)
+}
+
+nav ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+nav ul li:first-child{
+   flex-grow: 1;
+}
+
+
+.active{
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--lightbrown);
+}
+
+nav ul li:first-child .active{
+    border-bottom: none;
+ }
+ 
