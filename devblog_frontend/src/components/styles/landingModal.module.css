@@ -1,0 +1,48 @@
+.modalImg{
+    background-image: url('../../assets/landingpageimg.png');
+    background-size: cover;
+    min-width: 150px;
+}
+
+.landingModal{
+    display: flex;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.158);
+}
+
+.landingModalContent{
+    font-family: var(--font);
+    padding: 60px;
+}
+
+.landingModalContent h1{
+    font-weight: 800;
+    font-size: xx-large;
+    color: var(--grey);
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.landingModalContent p{
+    margin-bottom: 30px;
+    font-weight: 200;
+    max-width: 75%;
+    line-height: 150%;
+}
+
+.landingModalContent button{
+    border: none;
+    background-color: var(--brown);
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: var(--font);
+    font-weight: 200px;
+}
+
+.landingModalContent button:hover{
+    cursor: pointer;
+    background-color: var(--lightbrown);
+    color: var(--brown);
+    border-radius: 3px;
+    transition: all 1s;
+}
