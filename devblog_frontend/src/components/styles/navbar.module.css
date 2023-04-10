@@ -3,7 +3,9 @@ nav{
     border-bottom: 1px solid var(--white);
     font-family: var(--font);
     font-weight: 400;
-    container: navbarContainer / inline
+    container: navbarContainer / inline;
+    z-index: 1;
+    position: relative;
 }
 .logo{
     font-weight: 600;

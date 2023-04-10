@@ -1,0 +1,26 @@
+.blogPostCardPrev{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    color: var(--brown);
+}
+.blogPostCardPrev h3{
+    font-weight: 600;
+    margin-top: 16px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--lightbrown);
+    max-width: fit-content;
+}
+
+.blogPostCardPrev p{
+    margin-top: 9px;
+    min-width: fit-content;
+    font-weight: 100;
+}
+
+
+.prevImg{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 211, 211);
+}
