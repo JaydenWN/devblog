@@ -1,0 +1,27 @@
+.projectLandingCard{
+    background-color: white;
+    max-width: 200px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: var(--font);
+    box-shadow: 4px 4px 8px var(--brown);
+    border-radius: 3px;
+}
+
+.projectLandingCard:hover{
+    transition: all 0.6s ease-out;
+    box-shadow: 0px 0px 8px var(--white);
+}
+
+.projectLandingCard h3{
+    font-weight: 600;
+    font-size: large;
+    text-transform: uppercase;
+    min-height: 50px;
+}
+
+.projectLandingCard p{
+    line-height: 150%;
+}

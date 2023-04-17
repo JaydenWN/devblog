@@ -1,0 +1,32 @@
+.projectsLandingContainer{
+    display: flex;
+    gap: 50px;
+    background-image: linear-gradient(0deg, rgba(225, 233, 232, 0) 85%, rgba(14, 14, 14, 0.589) 100%), url('../../assets/programmingtile.png');
+    background-color: var(--grey);
+    background-blend-mode: overlay;
+    background-size: 250px;
+    padding: 60px 0px 60px 150px;
+}
+
+.projectsLandingContainer h2{
+    font-family: var(--font);
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.projectsLandingContainer a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.latestProjBtn{
+    color: var(--white);
+    align-self: center;
+    text-decoration: none;
+}
+
+.latestProjBtn:hover{
+    transition: all 0.25s ease-out;
+    border-bottom: 1px solid  var(--white);;
+    padding-bottom: 3px;
+}
