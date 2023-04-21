@@ -1,0 +1,28 @@
+.technologiesLandingContainer{
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    padding: 60px 150px 60px 150px ;
+    gap: 60px;
+}
+
+.technologiesLandingContainer h2{
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.techLandingCards{
+    display: flex;
+    gap: 20px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.techLandingCards a{
+    text-decoration: none;
+    color: var(--white)
+}

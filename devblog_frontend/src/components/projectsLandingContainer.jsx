@@ -32,11 +32,10 @@ function ProjectsLandingContainer() {
       </Link>
 
       {lastThreeProjects.map((project) => (
-        <Link to={`/portfolio/${project.id}`}>
+        <Link to={`/portfolio/${project.id}`} key={project.attributes.title}>
           <ProjectsLandingCard
             title={project.attributes.title}
             description={project.attributes.description}
-            key={project.attributes.title}
           ></ProjectsLandingCard>
         </Link>
       ))}

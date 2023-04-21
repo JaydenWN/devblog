@@ -1,3 +1,4 @@
+import { useQuery } from "@apollo/client";
 import LandingModal from "../components/landingModal";
 import ProjectsLandingContainer from "../components/projectsLandingContainer";
 import TechnologiesLandingContainer from "../components/TechnologiesLandingContainer";
